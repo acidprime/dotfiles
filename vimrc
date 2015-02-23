@@ -1,6 +1,5 @@
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
-syntax on
 let Tlist_Ctags_Cmd = "/usr/local/bin/ctags"
 let Tlist_WinWidth = 50
 map <F4> :TlistToggle<cr>
